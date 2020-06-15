@@ -1,0 +1,1024 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20975C48B518A6DA74475819330A0588 /* Pods-Lab2 - Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D67C8799A00ED0B1F45D47D2A74BBA /* Pods-Lab2 - Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A99367673DE4A4528CCE7AB1CF29FE4 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C701CA634D7FF807963EFACD3DA466 /* FocusView.swift */; };
+		2C173BC9A18EEA53072826E6E7A7B9A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		332927A894F105AAAF7C821971585794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		34C16059E000F9CEE64C3259A72DBB01 /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39AFF4C2FEA22220297E1A83154303 /* TorchMode.swift */; };
+		3952B9E4D6E3696C0A14009562D7B523 /* YCBarcodeReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF23F3F67926C80BCDE4F4F9BA9FF5DE /* YCBarcodeReader-dummy.m */; };
+		4E57D1E3438BD05B4BBAB7B481E75BD2 /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE9A910839A91BF3929C95231A81B01 /* flashOff@3x.png */; };
+		4FFDE14B0C0277B65541C3C0991F9A4B /* YCBarcodeReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B5C2CADE892ADB697F4A786411D6D6 /* YCBarcodeReaderError.swift */; };
+		55B335D1B8BEB556614397C11F9A7A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		615FBF3EBDF3E13313EED17495813529 /* flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB39AC97EF4003757DFBE247F2D7995 /* flashOn@3x.png */; };
+		71205E32A06D3F843626FE3D92DAEBCD /* Pods-Lab2 - SwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5629C930BE616798AF33052C8AF98E8B /* Pods-Lab2 - SwiftTests-dummy.m */; };
+		799FD6A4F1F875A20FE5FD8E10A6DCBF /* TorchButtonPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E53E2E080D59C177E86A987A26745F /* TorchButtonPosition.swift */; };
+		845BC162B9AC2D9E5C6ACA62CF75EE5E /* EFCountingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F30E5ECF7B16C5FED7A0ACC128EF23 /* EFCountingButton.swift */; };
+		8B579677BEF487A43037414B84832E28 /* YCBarcodeReaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955A02DFF406104D5A4BE8E162DF44D /* YCBarcodeReaderController.swift */; };
+		901B4F11CB22391996F98EB306DA7661 /* YCBarcodeReaderControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0395BDA0C7E227DE4B4774B578B5191B /* YCBarcodeReaderControllerProtocol.swift */; };
+		90417DF8FC92CA5234DBCA9E0A520AA6 /* YCBarcodeReaderViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA6C92E13DD26633782A577F3F0310 /* YCBarcodeReaderViewProtocol.swift */; };
+		98D29689AA6851375AB46199F73BF4EC /* Pods-Lab2 - SwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DA00558B4CC21B1998A54F2C58865C /* Pods-Lab2 - SwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99FF36176FEF98F250FFF41A8EA5E35C /* YCBarcodeReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF53BDD00FEFAEE835AAF08EE1E1763 /* YCBarcodeReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0AB3E04B1B73CE49806B77C062F2D9 /* YCBarcodeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1591F4A3AF3F0ADD951535B6EA1682 /* YCBarcodeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06968A7331E1A228A263B3F97DBE352 /* YCBarcodeReaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA6418F7769CF5D696B3EA6C19125A0 /* YCBarcodeReaderDelegate.swift */; };
+		C18DA5B5D47BF74CF7791F0864DC7D53 /* EFCountingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C509E95524B698BA1DF223D651F7DFB /* EFCountingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFA94A7FE38ECAB1D55BA635D2C96B7B /* EFCountingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66285A06795B41A70144D7B6D8A20DAA /* EFCountingLabel-dummy.m */; };
+		DBBBEB4AA408FB976964D74FA95B1B41 /* YCBarcodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593B39820550B0B86D4D246DA050677B /* YCBarcodeReaderView.swift */; };
+		DF04B53846CEB0A6284F957C00198C99 /* EFCountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D6D7883EBBEB9F29AA93DEA0CEE415 /* EFCountingLabel.swift */; };
+		E3EEC7CFA7B570EDBFE27BDE093E2123 /* Pods-Lab2 - Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAEC80298FA5639FC6242510BA55C7 /* Pods-Lab2 - Swift-dummy.m */; };
+		E92A9CB7AA5DA1F05F96825F2108E202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95B92D5DF6C3B22A7696F16141FAF2AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6325EB6A7CF3C68C1CFC4827D84D6156;
+			remoteInfo = "Pods-Lab2 - Swift";
+		};
+		AF697BB171FE1A5B6074984E29C71020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FAF291164D0212387BB5A155845F80;
+			remoteInfo = EFCountingLabel;
+		};
+		B77E346ED83C0E399BF368B3D319B94A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251971B6F9EA28BCAAC86E0B5E30B719;
+			remoteInfo = YCBarcodeReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0166580BA61EE6765DEA4A14874AC02E /* YCBarcodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YCBarcodeReader.framework; path = YCBarcodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0395BDA0C7E227DE4B4774B578B5191B /* YCBarcodeReaderControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YCBarcodeReaderControllerProtocol.swift; path = YCBarcodeReader/YCBarcodeReaderControllerProtocol.swift; sourceTree = "<group>"; };
+		065390C1B7B45C0BB8FE4FBF2992D2A4 /* YCBarcodeReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YCBarcodeReader.xcconfig; sourceTree = "<group>"; };
+		08D6D7883EBBEB9F29AA93DEA0CEE415 /* EFCountingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFCountingLabel.swift; path = EFCountingLabel/Classes/EFCountingLabel.swift; sourceTree = "<group>"; };
+		0C509E95524B698BA1DF223D651F7DFB /* EFCountingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFCountingLabel-umbrella.h"; sourceTree = "<group>"; };
+		0DE9A910839A91BF3929C95231A81B01 /* flashOff@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOff@3x.png"; path = "YCBarcodeReader/Resources/flashOff@3x.png"; sourceTree = "<group>"; };
+		0E9678B7D9CD2FB0749A9854E3788EA2 /* YCBarcodeReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YCBarcodeReader.modulemap; sourceTree = "<group>"; };
+		142927734EA035F8B4721514BF35E68A /* Pods_Lab2___Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lab2___Swift.framework; path = "Pods-Lab2 - Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1955A02DFF406104D5A4BE8E162DF44D /* YCBarcodeReaderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YCBarcodeReaderController.swift; path = YCBarcodeReader/YCBarcodeReaderController.swift; sourceTree = "<group>"; };
+		1A39AFF4C2FEA22220297E1A83154303 /* TorchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchMode.swift; path = YCBarcodeReader/TorchMode.swift; sourceTree = "<group>"; };
+		1D26C1EAC4523FB7F03D45ADC3E343A0 /* Pods-Lab2 - Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab2 - Swift.release.xcconfig"; sourceTree = "<group>"; };
+		23BFBCD595BAA194ABEC4143989230CB /* EFCountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFCountingLabel.framework; path = EFCountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		262352B6DAB4360C232BF3D821E9D437 /* Pods-Lab2 - Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lab2 - Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E74340FB7763A1AC9E66780827E950B /* Pods-Lab2 - Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab2 - Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		2EC18429E1095E03CD66303724F6E453 /* Pods-Lab2 - SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab2 - SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		41A226962798C8E74C897405445A83A3 /* Pods-Lab2 - Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab2 - Swift-Info.plist"; sourceTree = "<group>"; };
+		46824449E5AA6511993BBBA9B820AE52 /* Pods-Lab2 - SwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab2 - SwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46F30E5ECF7B16C5FED7A0ACC128EF23 /* EFCountingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFCountingButton.swift; path = EFCountingLabel/Classes/EFCountingButton.swift; sourceTree = "<group>"; };
+		4B4AEAF808AB8E0A097EB322A95445E2 /* Pods-Lab2 - SwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lab2 - SwiftTests.modulemap"; sourceTree = "<group>"; };
+		4FAA6C92E13DD26633782A577F3F0310 /* YCBarcodeReaderViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YCBarcodeReaderViewProtocol.swift; path = YCBarcodeReader/YCBarcodeReaderViewProtocol.swift; sourceTree = "<group>"; };
+		5629C930BE616798AF33052C8AF98E8B /* Pods-Lab2 - SwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lab2 - SwiftTests-dummy.m"; sourceTree = "<group>"; };
+		577BD1D514CCBF98720CA99F915059E2 /* Pods-Lab2 - SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lab2 - SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		593B39820550B0B86D4D246DA050677B /* YCBarcodeReaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YCBarcodeReaderView.swift; path = YCBarcodeReader/YCBarcodeReaderView.swift; sourceTree = "<group>"; };
+		5C1591F4A3AF3F0ADD951535B6EA1682 /* YCBarcodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YCBarcodeReader.h; path = YCBarcodeReader/YCBarcodeReader.h; sourceTree = "<group>"; };
+		66285A06795B41A70144D7B6D8A20DAA /* EFCountingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFCountingLabel-dummy.m"; sourceTree = "<group>"; };
+		7BA6418F7769CF5D696B3EA6C19125A0 /* YCBarcodeReaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YCBarcodeReaderDelegate.swift; path = YCBarcodeReader/YCBarcodeReaderDelegate.swift; sourceTree = "<group>"; };
+		7CF53BDD00FEFAEE835AAF08EE1E1763 /* YCBarcodeReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCBarcodeReader-umbrella.h"; sourceTree = "<group>"; };
+		83EC6FEC28B349210DDD815A985EFA1A /* YCBarcodeReader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YCBarcodeReader-Info.plist"; sourceTree = "<group>"; };
+		89B5C2CADE892ADB697F4A786411D6D6 /* YCBarcodeReaderError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YCBarcodeReaderError.swift; path = YCBarcodeReader/YCBarcodeReaderError.swift; sourceTree = "<group>"; };
+		904A903A19CD31CCBA75E677DF025015 /* Pods-Lab2 - Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab2 - Swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2E994926667308B07BD194E168BAC23 /* EFCountingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFCountingLabel-prefix.pch"; sourceTree = "<group>"; };
+		A40EAEA5D40C8BD71E29293636AD8F55 /* Pods-Lab2 - SwiftTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lab2 - SwiftTests-Info.plist"; sourceTree = "<group>"; };
+		AAB39AC97EF4003757DFBE247F2D7995 /* flashOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOn@3x.png"; path = "YCBarcodeReader/Resources/flashOn@3x.png"; sourceTree = "<group>"; };
+		B2FAEC80298FA5639FC6242510BA55C7 /* Pods-Lab2 - Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lab2 - Swift-dummy.m"; sourceTree = "<group>"; };
+		B54FF4DF36D39C0941D15AE23D7D51CE /* Pods-Lab2 - SwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lab2 - SwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2D67C8799A00ED0B1F45D47D2A74BBA /* Pods-Lab2 - Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lab2 - Swift-umbrella.h"; sourceTree = "<group>"; };
+		C54FBD9DA9B8EE2C1CF896F96795363C /* Pods_Lab2___SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lab2___SwiftTests.framework; path = "Pods-Lab2 - SwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59E5D025BEB8FA605F8169FE18A0AF1 /* YCBarcodeReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCBarcodeReader-prefix.pch"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCE27EB3780DADF445B73D0C395F9C19 /* EFCountingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFCountingLabel.modulemap; sourceTree = "<group>"; };
+		D0E53E2E080D59C177E86A987A26745F /* TorchButtonPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchButtonPosition.swift; path = YCBarcodeReader/TorchButtonPosition.swift; sourceTree = "<group>"; };
+		D6C701CA634D7FF807963EFACD3DA466 /* FocusView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusView.swift; path = YCBarcodeReader/FocusView.swift; sourceTree = "<group>"; };
+		DC8ADD2E9BDC8091381D3AFDE5E1E3D3 /* Pods-Lab2 - Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lab2 - Swift.modulemap"; sourceTree = "<group>"; };
+		DFF309F39542055FD6B14953D0483A22 /* Pods-Lab2 - Swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lab2 - Swift-frameworks.sh"; sourceTree = "<group>"; };
+		F2DA00558B4CC21B1998A54F2C58865C /* Pods-Lab2 - SwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lab2 - SwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		F43C485938693682F16E3FAC96528791 /* EFCountingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFCountingLabel.xcconfig; sourceTree = "<group>"; };
+		FCF8AEC1D4EB18375C34ABBD95BB673D /* EFCountingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EFCountingLabel-Info.plist"; sourceTree = "<group>"; };
+		FF23F3F67926C80BCDE4F4F9BA9FF5DE /* YCBarcodeReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YCBarcodeReader-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B03086DBCF9A9C4C8929D392F799FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92A9CB7AA5DA1F05F96825F2108E202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8A7ED13DBE428B4DB31CFAC9B2819D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B335D1B8BEB556614397C11F9A7A17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B0232E00F4D8E61B0248E149708DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C173BC9A18EEA53072826E6E7A7B9A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E37C20434B9660AED92A2946AE9FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332927A894F105AAAF7C821971585794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334C81EF78923DFBE776D5ED3F16567F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23BFBCD595BAA194ABEC4143989230CB /* EFCountingLabel.framework */,
+				142927734EA035F8B4721514BF35E68A /* Pods_Lab2___Swift.framework */,
+				C54FBD9DA9B8EE2C1CF896F96795363C /* Pods_Lab2___SwiftTests.framework */,
+				0166580BA61EE6765DEA4A14874AC02E /* YCBarcodeReader.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB66F8AB3FACD454549977E353BE7F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F86A01C97511DC35976553B69F74B168 /* Pods-Lab2 - Swift */,
+				8DD9D5C1BECE9DF12DE73FBC26501DF5 /* Pods-Lab2 - SwiftTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5DBAEFCA619B5568CDC1C9947BEF6870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF33443D13D91B9543E41E9FD956B19A /* EFCountingLabel */,
+				E50F4872962D4FD9011AFCBA457C878F /* YCBarcodeReader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		714E460F17AFEFD172D8BF86DC9AAC2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DE9A910839A91BF3929C95231A81B01 /* flashOff@3x.png */,
+				AAB39AC97EF4003757DFBE247F2D7995 /* flashOn@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7BFBBF4EEBECCA5ACA881E646C82D5EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E9678B7D9CD2FB0749A9854E3788EA2 /* YCBarcodeReader.modulemap */,
+				065390C1B7B45C0BB8FE4FBF2992D2A4 /* YCBarcodeReader.xcconfig */,
+				FF23F3F67926C80BCDE4F4F9BA9FF5DE /* YCBarcodeReader-dummy.m */,
+				83EC6FEC28B349210DDD815A985EFA1A /* YCBarcodeReader-Info.plist */,
+				C59E5D025BEB8FA605F8169FE18A0AF1 /* YCBarcodeReader-prefix.pch */,
+				7CF53BDD00FEFAEE835AAF08EE1E1763 /* YCBarcodeReader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YCBarcodeReader";
+			sourceTree = "<group>";
+		};
+		8DD9D5C1BECE9DF12DE73FBC26501DF5 /* Pods-Lab2 - SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AEAF808AB8E0A097EB322A95445E2 /* Pods-Lab2 - SwiftTests.modulemap */,
+				B54FF4DF36D39C0941D15AE23D7D51CE /* Pods-Lab2 - SwiftTests-acknowledgements.markdown */,
+				46824449E5AA6511993BBBA9B820AE52 /* Pods-Lab2 - SwiftTests-acknowledgements.plist */,
+				5629C930BE616798AF33052C8AF98E8B /* Pods-Lab2 - SwiftTests-dummy.m */,
+				A40EAEA5D40C8BD71E29293636AD8F55 /* Pods-Lab2 - SwiftTests-Info.plist */,
+				F2DA00558B4CC21B1998A54F2C58865C /* Pods-Lab2 - SwiftTests-umbrella.h */,
+				577BD1D514CCBF98720CA99F915059E2 /* Pods-Lab2 - SwiftTests.debug.xcconfig */,
+				2EC18429E1095E03CD66303724F6E453 /* Pods-Lab2 - SwiftTests.release.xcconfig */,
+			);
+			name = "Pods-Lab2 - SwiftTests";
+			path = "Target Support Files/Pods-Lab2 - SwiftTests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BF33443D13D91B9543E41E9FD956B19A /* EFCountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				46F30E5ECF7B16C5FED7A0ACC128EF23 /* EFCountingButton.swift */,
+				08D6D7883EBBEB9F29AA93DEA0CEE415 /* EFCountingLabel.swift */,
+				D5F7ABD649A5DCEEFFAB40CC378D3303 /* Support Files */,
+			);
+			name = EFCountingLabel;
+			path = EFCountingLabel;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5DBAEFCA619B5568CDC1C9947BEF6870 /* Pods */,
+				334C81EF78923DFBE776D5ED3F16567F /* Products */,
+				3EB66F8AB3FACD454549977E353BE7F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5F7ABD649A5DCEEFFAB40CC378D3303 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE27EB3780DADF445B73D0C395F9C19 /* EFCountingLabel.modulemap */,
+				F43C485938693682F16E3FAC96528791 /* EFCountingLabel.xcconfig */,
+				66285A06795B41A70144D7B6D8A20DAA /* EFCountingLabel-dummy.m */,
+				FCF8AEC1D4EB18375C34ABBD95BB673D /* EFCountingLabel-Info.plist */,
+				A2E994926667308B07BD194E168BAC23 /* EFCountingLabel-prefix.pch */,
+				0C509E95524B698BA1DF223D651F7DFB /* EFCountingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EFCountingLabel";
+			sourceTree = "<group>";
+		};
+		E50F4872962D4FD9011AFCBA457C878F /* YCBarcodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				D6C701CA634D7FF807963EFACD3DA466 /* FocusView.swift */,
+				D0E53E2E080D59C177E86A987A26745F /* TorchButtonPosition.swift */,
+				1A39AFF4C2FEA22220297E1A83154303 /* TorchMode.swift */,
+				5C1591F4A3AF3F0ADD951535B6EA1682 /* YCBarcodeReader.h */,
+				1955A02DFF406104D5A4BE8E162DF44D /* YCBarcodeReaderController.swift */,
+				0395BDA0C7E227DE4B4774B578B5191B /* YCBarcodeReaderControllerProtocol.swift */,
+				7BA6418F7769CF5D696B3EA6C19125A0 /* YCBarcodeReaderDelegate.swift */,
+				89B5C2CADE892ADB697F4A786411D6D6 /* YCBarcodeReaderError.swift */,
+				593B39820550B0B86D4D246DA050677B /* YCBarcodeReaderView.swift */,
+				4FAA6C92E13DD26633782A577F3F0310 /* YCBarcodeReaderViewProtocol.swift */,
+				714E460F17AFEFD172D8BF86DC9AAC2B /* Resources */,
+				7BFBBF4EEBECCA5ACA881E646C82D5EA /* Support Files */,
+			);
+			name = YCBarcodeReader;
+			path = YCBarcodeReader;
+			sourceTree = "<group>";
+		};
+		F86A01C97511DC35976553B69F74B168 /* Pods-Lab2 - Swift */ = {
+			isa = PBXGroup;
+			children = (
+				DC8ADD2E9BDC8091381D3AFDE5E1E3D3 /* Pods-Lab2 - Swift.modulemap */,
+				262352B6DAB4360C232BF3D821E9D437 /* Pods-Lab2 - Swift-acknowledgements.markdown */,
+				904A903A19CD31CCBA75E677DF025015 /* Pods-Lab2 - Swift-acknowledgements.plist */,
+				B2FAEC80298FA5639FC6242510BA55C7 /* Pods-Lab2 - Swift-dummy.m */,
+				DFF309F39542055FD6B14953D0483A22 /* Pods-Lab2 - Swift-frameworks.sh */,
+				41A226962798C8E74C897405445A83A3 /* Pods-Lab2 - Swift-Info.plist */,
+				C2D67C8799A00ED0B1F45D47D2A74BBA /* Pods-Lab2 - Swift-umbrella.h */,
+				2E74340FB7763A1AC9E66780827E950B /* Pods-Lab2 - Swift.debug.xcconfig */,
+				1D26C1EAC4523FB7F03D45ADC3E343A0 /* Pods-Lab2 - Swift.release.xcconfig */,
+			);
+			name = "Pods-Lab2 - Swift";
+			path = "Target Support Files/Pods-Lab2 - Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92278E6488B039718649A10B0D44FB1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D29689AA6851375AB46199F73BF4EC /* Pods-Lab2 - SwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA21C74CAC366F4F355AAF28324B089 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20975C48B518A6DA74475819330A0588 /* Pods-Lab2 - Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE4CA7DB720EF6DD92B6C8B1BF98C1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18DA5B5D47BF74CF7791F0864DC7D53 /* EFCountingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DB476C07A618E9EE79BA2E80FE45E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FF36176FEF98F250FFF41A8EA5E35C /* YCBarcodeReader-umbrella.h in Headers */,
+				AE0AB3E04B1B73CE49806B77C062F2D9 /* YCBarcodeReader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		251971B6F9EA28BCAAC86E0B5E30B719 /* YCBarcodeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F11766248534D4023CD24B2B9E8120 /* Build configuration list for PBXNativeTarget "YCBarcodeReader" */;
+			buildPhases = (
+				B5DB476C07A618E9EE79BA2E80FE45E5 /* Headers */,
+				CF9B46394FCB576D26B019F5DFE557E2 /* Sources */,
+				E2E37C20434B9660AED92A2946AE9FC6 /* Frameworks */,
+				6E66E6CD25B26484F69F456C237BAEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCBarcodeReader;
+			productName = YCBarcodeReader;
+			productReference = 0166580BA61EE6765DEA4A14874AC02E /* YCBarcodeReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6325EB6A7CF3C68C1CFC4827D84D6156 /* Pods-Lab2 - Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD20C68BC718B65DA7E9D288FC07FA2F /* Build configuration list for PBXNativeTarget "Pods-Lab2 - Swift" */;
+			buildPhases = (
+				9AA21C74CAC366F4F355AAF28324B089 /* Headers */,
+				DFA15D9E23CB9DF6114D43686E030F0D /* Sources */,
+				9D8A7ED13DBE428B4DB31CFAC9B2819D /* Frameworks */,
+				27EB9F9B0AB02407584DF43B2F19C9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EBCD28414F8D4D228C7AA7183BC054 /* PBXTargetDependency */,
+				BF1C5F75E14C77EECAC1FB6D56A6CD9C /* PBXTargetDependency */,
+			);
+			name = "Pods-Lab2 - Swift";
+			productName = "Pods-Lab2 - Swift";
+			productReference = 142927734EA035F8B4721514BF35E68A /* Pods_Lab2___Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2FAF291164D0212387BB5A155845F80 /* EFCountingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA77B9587565C9B61EAF351B57BEB37 /* Build configuration list for PBXNativeTarget "EFCountingLabel" */;
+			buildPhases = (
+				ADE4CA7DB720EF6DD92B6C8B1BF98C1B /* Headers */,
+				1CADA67C312C346D1C0CECAF416C1856 /* Sources */,
+				5B03086DBCF9A9C4C8929D392F799FC3 /* Frameworks */,
+				CC41D0B104DD148377DDEAE6C78EE40C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFCountingLabel;
+			productName = EFCountingLabel;
+			productReference = 23BFBCD595BAA194ABEC4143989230CB /* EFCountingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1F160B9DD48BF32BE5B7D82663DDB36 /* Pods-Lab2 - SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EE71026BE72D0A3503AAEFAC4F2E70 /* Build configuration list for PBXNativeTarget "Pods-Lab2 - SwiftTests" */;
+			buildPhases = (
+				92278E6488B039718649A10B0D44FB1C /* Headers */,
+				4631A0153306B9B39AEE655F042C999D /* Sources */,
+				E0B0232E00F4D8E61B0248E149708DA8 /* Frameworks */,
+				2F1E607E14F8C51732487A279C778F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268C62D2FCE781CAD630C61E3D4E9E5B /* PBXTargetDependency */,
+			);
+			name = "Pods-Lab2 - SwiftTests";
+			productName = "Pods-Lab2 - SwiftTests";
+			productReference = C54FBD9DA9B8EE2C1CF896F96795363C /* Pods_Lab2___SwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 334C81EF78923DFBE776D5ED3F16567F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FAF291164D0212387BB5A155845F80 /* EFCountingLabel */,
+				6325EB6A7CF3C68C1CFC4827D84D6156 /* Pods-Lab2 - Swift */,
+				F1F160B9DD48BF32BE5B7D82663DDB36 /* Pods-Lab2 - SwiftTests */,
+				251971B6F9EA28BCAAC86E0B5E30B719 /* YCBarcodeReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27EB9F9B0AB02407584DF43B2F19C9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1E607E14F8C51732487A279C778F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E66E6CD25B26484F69F456C237BAEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E57D1E3438BD05B4BBAB7B481E75BD2 /* flashOff@3x.png in Resources */,
+				615FBF3EBDF3E13313EED17495813529 /* flashOn@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC41D0B104DD148377DDEAE6C78EE40C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CADA67C312C346D1C0CECAF416C1856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845BC162B9AC2D9E5C6ACA62CF75EE5E /* EFCountingButton.swift in Sources */,
+				CFA94A7FE38ECAB1D55BA635D2C96B7B /* EFCountingLabel-dummy.m in Sources */,
+				DF04B53846CEB0A6284F957C00198C99 /* EFCountingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4631A0153306B9B39AEE655F042C999D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71205E32A06D3F843626FE3D92DAEBCD /* Pods-Lab2 - SwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9B46394FCB576D26B019F5DFE557E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A99367673DE4A4528CCE7AB1CF29FE4 /* FocusView.swift in Sources */,
+				799FD6A4F1F875A20FE5FD8E10A6DCBF /* TorchButtonPosition.swift in Sources */,
+				34C16059E000F9CEE64C3259A72DBB01 /* TorchMode.swift in Sources */,
+				3952B9E4D6E3696C0A14009562D7B523 /* YCBarcodeReader-dummy.m in Sources */,
+				8B579677BEF487A43037414B84832E28 /* YCBarcodeReaderController.swift in Sources */,
+				901B4F11CB22391996F98EB306DA7661 /* YCBarcodeReaderControllerProtocol.swift in Sources */,
+				C06968A7331E1A228A263B3F97DBE352 /* YCBarcodeReaderDelegate.swift in Sources */,
+				4FFDE14B0C0277B65541C3C0991F9A4B /* YCBarcodeReaderError.swift in Sources */,
+				DBBBEB4AA408FB976964D74FA95B1B41 /* YCBarcodeReaderView.swift in Sources */,
+				90417DF8FC92CA5234DBCA9E0A520AA6 /* YCBarcodeReaderViewProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA15D9E23CB9DF6114D43686E030F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EEC7CFA7B570EDBFE27BDE093E2123 /* Pods-Lab2 - Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268C62D2FCE781CAD630C61E3D4E9E5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Lab2 - Swift";
+			target = 6325EB6A7CF3C68C1CFC4827D84D6156 /* Pods-Lab2 - Swift */;
+			targetProxy = 95B92D5DF6C3B22A7696F16141FAF2AF /* PBXContainerItemProxy */;
+		};
+		52EBCD28414F8D4D228C7AA7183BC054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EFCountingLabel;
+			target = C2FAF291164D0212387BB5A155845F80 /* EFCountingLabel */;
+			targetProxy = AF697BB171FE1A5B6074984E29C71020 /* PBXContainerItemProxy */;
+		};
+		BF1C5F75E14C77EECAC1FB6D56A6CD9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YCBarcodeReader;
+			target = 251971B6F9EA28BCAAC86E0B5E30B719 /* YCBarcodeReader */;
+			targetProxy = B77E346ED83C0E399BF368B3D319B94A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2206EF6A3D602ED833459449939C2E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E74340FB7763A1AC9E66780827E950B /* Pods-Lab2 - Swift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab2 - Swift/Pods-Lab2 - Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab2 - Swift/Pods-Lab2 - Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C246C4AA4313249B048C43CFB7C8051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43C485938693682F16E3FAC96528791 /* EFCountingLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFCountingLabel/EFCountingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFCountingLabel/EFCountingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EFCountingLabel/EFCountingLabel.modulemap";
+				PRODUCT_MODULE_NAME = EFCountingLabel;
+				PRODUCT_NAME = EFCountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39CBC9FBD4617C67FD7B06DF163B08A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065390C1B7B45C0BB8FE4FBF2992D2A4 /* YCBarcodeReader.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YCBarcodeReader/YCBarcodeReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YCBarcodeReader/YCBarcodeReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YCBarcodeReader/YCBarcodeReader.modulemap";
+				PRODUCT_MODULE_NAME = YCBarcodeReader;
+				PRODUCT_NAME = YCBarcodeReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A29D3C1E222896DA85B087C0652BEECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577BD1D514CCBF98720CA99F915059E2 /* Pods-Lab2 - SwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab2 - SwiftTests/Pods-Lab2 - SwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab2 - SwiftTests/Pods-Lab2 - SwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A861F311A22C62E0BDBD8477E7F3AD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D26C1EAC4523FB7F03D45ADC3E343A0 /* Pods-Lab2 - Swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab2 - Swift/Pods-Lab2 - Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab2 - Swift/Pods-Lab2 - Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6C315985222FFAB74E04141815D711F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43C485938693682F16E3FAC96528791 /* EFCountingLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFCountingLabel/EFCountingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFCountingLabel/EFCountingLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EFCountingLabel/EFCountingLabel.modulemap";
+				PRODUCT_MODULE_NAME = EFCountingLabel;
+				PRODUCT_NAME = EFCountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D95BB5356753D95BD052FFA38B49BAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC18429E1095E03CD66303724F6E453 /* Pods-Lab2 - SwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lab2 - SwiftTests/Pods-Lab2 - SwiftTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lab2 - SwiftTests/Pods-Lab2 - SwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA2313626E08FE7975E3B3896C987807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065390C1B7B45C0BB8FE4FBF2992D2A4 /* YCBarcodeReader.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YCBarcodeReader/YCBarcodeReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YCBarcodeReader/YCBarcodeReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YCBarcodeReader/YCBarcodeReader.modulemap";
+				PRODUCT_MODULE_NAME = YCBarcodeReader;
+				PRODUCT_NAME = YCBarcodeReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA77B9587565C9B61EAF351B57BEB37 /* Build configuration list for PBXNativeTarget "EFCountingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C315985222FFAB74E04141815D711F /* Debug */,
+				2C246C4AA4313249B048C43CFB7C8051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F11766248534D4023CD24B2B9E8120 /* Build configuration list for PBXNativeTarget "YCBarcodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CBC9FBD4617C67FD7B06DF163B08A9 /* Debug */,
+				EA2313626E08FE7975E3B3896C987807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD20C68BC718B65DA7E9D288FC07FA2F /* Build configuration list for PBXNativeTarget "Pods-Lab2 - Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2206EF6A3D602ED833459449939C2E33 /* Debug */,
+				A861F311A22C62E0BDBD8477E7F3AD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EE71026BE72D0A3503AAEFAC4F2E70 /* Build configuration list for PBXNativeTarget "Pods-Lab2 - SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29D3C1E222896DA85B087C0652BEECE /* Debug */,
+				D95BB5356753D95BD052FFA38B49BAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module YCBarcodeReader {
+  umbrella header "YCBarcodeReader-umbrella.h"
+
+  export *
+  module * { export * }
+}
